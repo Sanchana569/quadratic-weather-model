@@ -12,7 +12,7 @@ def solve_quadratic(a, b, c):
     else:
         return "Complex roots"
 
-# Read input from file
+
 with open("input.txt", "r") as file:
     lines = file.readlines()
 

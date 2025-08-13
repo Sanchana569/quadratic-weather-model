@@ -19,4 +19,4 @@ with open("input.txt", "r") as file:
 for i, line in enumerate(lines):
     a, b, c = map(float, line.strip().split())
     result = solve_quadratic(a, b, c)
-    print(f"Equation {i+1}: a={a}, b={b}, c={c} → {result}")
+    print(f"Equation {i+1}: a={a}, b={b}, c={c} -> {result}")
